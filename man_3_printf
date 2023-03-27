@@ -1,0 +1,39 @@
+"27-3-2023"
+
+_printf -  a function that acts as the c stdio.h printf function where it prints and formats the data
+
+_printf() takes the format specifier from the string and acts upon the adjacent argument to be
+printed in the standard output
+
+checks for the conversion specifier "%" then for the special functions after it to begin the operation
+
+%s
+prints a string.
+%c
+prints a character.
+%d , %i
+prints an integer..
+%u
+Prints unsigned int.
+%o
+Converts unsigned int to octal.
+%x
+Converts unsigned int to lowercase hexadecimal
+%X
+Converts unsigned int to uppercase hexadecimal
+%r
+Prints reverse of string
+%R
+Converts string to rot13
+
+it also contains options using the virgule "\" or as called backslash to specify special actions
+
+Ex:
+
+\n     new line
+
+\t     tab
+
+Returns the value to the stdout
+
+Auther : sapperberet
